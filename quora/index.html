@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quora Hub Page</title>
+  <!-- Мета-тег для Google (может быть verification или другое) -->
+  <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #001f3f;  /* тёмно-синий фон (вода) */
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    #bubble-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+    }
+
+    .bubble {
+      position: absolute;
+      bottom: -50px;
+      width: 20px;
+      height: 20px;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 50%;
+      opacity: 0.6;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div id="bubble-container"></div>
+  <div class="content">
+    <h1>Мой Quora Hub</h1>
+    <p>Этот раздел будет содержать ссылки на мои ответы / страницы Quora.</p>
+    <!-- Здесь можно вставить список ссылок или описания -->
+  </div>
+
+  <script>
+    // Пузырьки — генерируем периодически
+    const container = document.getElementById('bubble-container');
+
+    function createBubble() {
+      const bubble = document.createElement('div');
+      bubble.classList.add('bubble');
+      const size = Math.random() * 20 + 10;  // от 10 до 30 px
+      bubble.style.width = size + 'px';
+      bubble.style.height = size + 'px';
+      bubble.style.left = Math.random() * window.innerWidth + 'px';
+      bubble.style.animationDuration = (Math.random() * 5 + 5) + 's';  // 5–10 секунд
+
+      container.appendChild(bubble);
+
+      // Анимируем вверх
+      bubble.animate([
+        { transform: `translateY(0)`, opacity: 0.6 },
+        { transform: `translateY(-${window.innerHeight + 50}px)`, opacity: 0 }
+      ], {
+        duration: (Math.random() * 5000 + 5000),  // 5–10 сек
+        easing: 'linear'
+      });
+
+      // Удалить пузырёк после анимации
+      setTimeout(() => {
+        bubble.remove();
+      }, 10000);
+    }
+
+    // Генерировать пузырьки каждую секунду
+    setInterval(createBubble, 300);
+  </script>
+</body>
+</html>
