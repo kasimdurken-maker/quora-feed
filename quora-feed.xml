@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My Quora Content Feed</title>
+    <link>https://kasimdurken-maker.github.io/quora-feed/quora/</link>
+    <description>RSS-фид моих публикаций Quora</description>
+
+    <!-- Вопрос -->
+    <item>
+      <title>What are the best AI tools for content marketing?</title>
+      <link>https://www.quora.com/Do-you-really-want-the-USA-to-become-a-socialist-communistic-country-https-www-cato-org-commentary-100-years-communism-death-deprivation/answer/Berry-1432</link>
+      <pubDate>Fri, 17 Oct 2025 11:15:00 +0000</pubDate>
+      <guid>https://www.quora.com/Do-you-really-want-the-USA-to-become-a-socialist-communistic-country-https-www-cato-org-commentary-100-years-communism-death-deprivation/answer/Berry-1432</guid>
+    </item>
+
+    <!-- Space / страница пространства -->
+    <item>
+      <title>SEO Strategies Space</title>
+      <link>https://thisischina.quora.com</link>
+      <pubDate>Fri, 17 Oct 2025 09:30:00 +0000</pubDate>
+      <guid>https://thisischina.quora.com/</guid>
+    </item>
+
+    <!-- Профиль / страница пользователя -->
+    <item>
+      <title>Profile of SEO Expert</title>
+      <link>https://lifewith2cats.quora.com/No-Kings-Protestifei-Wang-6</link>
+      <pubDate>Fri, 17 Oct 2025 08:45:00 +0000</pubDate>
+      <guid>https://lifewith2cats.quora.com/No-Kings-Protestifei-Wang-6</guid>
+    </item>
+
+    <!-- Другой ответ / длинная форма -->
+    <item>
+      <title>How to scale content marketing in 2025?</title>
+      <link>https://www.quora.com/profile/Feifei-Wang-6</link>
+      <pubDate>Fri, 17 Oct 2025 12:30:00 +0000</pubDate>
+      <guid>https://www.quora.com/profile/Feifei-Wang-6</guid>
+    </item>
+
+  </channel>
+</rss>
