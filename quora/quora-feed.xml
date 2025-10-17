@@ -5,14 +5,6 @@
     <link>https://USERNAME.github.io/quora/</link>
     <description>RSS-фид моих публикаций Quora</description>
 
-    <!-- Ответ -->
-    <item>
-      <title>Why is SEO important in 2025?</title>
-      <link>>https://www.quora.com/When-is-someone-going-to-charge-Trump-with-RICO-Act-violations/answer/Berry-1432?ch=10&oid=1477743887488181&share=28b1a91b&srid=uzE65o&target_type=answer/link>
-      <pubDate>Fri, 17 Oct 2025 10:00:00 +0000</pubDate>
-      <guid>https://www.quora.com/When-is-someone-going-to-charge-Trump-with-RICO-Act-violations/answer/Berry-1432?ch=10&oid=1477743887488181&share=28b1a91b&srid=uzE65o&target_type=answer</guid>
-    </item>
-
     <!-- Вопрос -->
     <item>
       <title>What are the best AI tools for content marketing?</title>
@@ -47,4 +39,5 @@
 
   </channel>
 </rss>
+
 
