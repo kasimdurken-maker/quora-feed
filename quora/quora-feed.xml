@@ -2,13 +2,13 @@
 <rss version="2.0">
   <channel>
     <title>My Quora Content Feed</title>
-    <link>https://USERNAME.github.io/quora/</link>
+    <link>https://kasimdurken-maker.github.io/quora-feed/quora/</link>
     <description>RSS-фид моих публикаций Quora</description>
 
     <!-- Вопрос -->
     <item>
       <title>What are the best AI tools for content marketing?</title>
-      <link>https://www.quora.com/Do-you-really-want-the-USA-to-become-a-socialist-communistic-country-https-www-cato-org-commentary-100-years-communism-death-deprivation/answer/Berry-1432/link>
+      <link>https://www.quora.com/Do-you-really-want-the-USA-to-become-a-socialist-communistic-country-https-www-cato-org-commentary-100-years-communism-death-deprivation/answer/Berry-1432</link>
       <pubDate>Fri, 17 Oct 2025 11:15:00 +0000</pubDate>
       <guid>https://www.quora.com/Do-you-really-want-the-USA-to-become-a-socialist-communistic-country-https-www-cato-org-commentary-100-years-communism-death-deprivation/answer/Berry-1432</guid>
     </item>
@@ -39,5 +39,3 @@
 
   </channel>
 </rss>
-
-
